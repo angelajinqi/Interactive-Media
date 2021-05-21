@@ -160,5 +160,41 @@
  	border-bottom:none;
  	border-right:none;
 	} 	
+/*start of own flag*/
 
+.flag-own{
+	width: 430px;
+	height: 300px;
+	/*border:1px solid black;*/
+	grid-template-columns:100px 40px 240px 50;
+	grid-template-rows:10px 250px 20px ;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+/*.grid-item-bluee{
+ 	background-color:#6787e7;
+grid-column-start:2;
+ 	grid-row-end:span 3;
+	} */	
+
+	.grid-item-bluee{
+ 	background-color:#1167b1;
+
+	} 	
+
+	.grid-item-orange{
+ 	background-color:#FCD12A;
+ 	border: 10px solid white
+
+	} 	
+
+	.grid-item-bluee2{
+ 	background-color:#1167b1;
+ 	grid-row:2/3;
+	} 	
+
+	.grid-item-bluee2{
+ 	background-color:#1167b1;
+ 	grid-column:3/3;
+	} 	
 }
