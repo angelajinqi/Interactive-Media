@@ -1,56 +1,164 @@
-<DOCTYPE html>
+.flag{
+	display:grid;
+	/*position:absolute;
+	display: inline-block;*/
 
-<html lang="en">
+}
 
-<head>
-	<title>CSS Flags</title>
-	<link rel="stylesheet"href="style.css">
-</head>
+/*start of sweden flag*/
+.flag-sweden{
+	width: 320px;
+	height: 200px;
+	border:1px solid black;
+	grid-template-columns:100px 40px 180px;
+	grid-template-rows:80px 40px 80px;
 
-<body>
+}
 
-	<h1>Flags</h1>
-	<div class="flag flag-sweden">
-		<div class="grid-item-blue1"></div>
-		<div class="grid-item-yellowv-vertical"></div>
-		<div class="grid-item-blue2"></div>
-		<div class="grid-item-yellowv-horizontal"></div>
-		<div class="grid-item-yellowv-horizontal2"></div>
-		<div class="grid-item-blue3"></div>
-		<div class="grid-item-blue4"></div>
-		<h3>Sweden </h3>
+.flag-sweden div{
+	/*border:1px solid black;*/
+}
 
-<br>
-	<div class="flag flag-finland">
-		<div class="grid-item-white"></div>
-		<div class="grid-item-blue-vertical"></div>
-		<div class="grid-item-white"></div>
-		<div class="grid-item-blue2"></div>
-		<div class="grid-item-blue3"></div>
-		<div class="grid-item-white"></div>
-		<div class="grid-item-white"></div>
-		<h3>Finland </h3>
-<br>
+.grid-item-blue1{
+ 	background-color:#1167b1;
 
-	<div class="flag flag-denmark">
-		<div class="grid-item-red"></div>
-		<div class="grid-item-white-vertical"></div>
-		<div class="grid-item-red"></div>
-		<div class="grid-item-white"></div>
-		<div class="grid-item-white"></div>
-		<div class="grid-item-red"></div>
-		<div class="grid-item-red"></div>
-		<h3>Denmark  </h3>
+}
 
-	<div class="flag flag-iceland">
-		<div class="grid-item-bluea"></div>
-		<div class="grid-item-red-vertical"></div>
-		<div class="grid-item-blueb"></div>
-		<div class="grid-item-red"></div>
-		<div class="grid-item-red"></div>
-		<div class="grid-item-bluec"></div>
-		<div class="grid-item-blued"></div>
-		<h3>Iceland </h3>
-	</div>
+.grid-item-yellowv-vertical{
+ 	background-color:#FCD12A;
+ 	grid-column-start:2;
+ 	grid-row-end:span 3;
+ 	border:none;
+}
+.grid-item-blue2{
+ 	background-color:#1167b1;
 
-<body>
+}
+
+.grid-item-yellowv-horizontal{
+ 	background-color:#FCD12A;
+ 	grid-row-start: 2
+ 	
+
+}
+
+.grid-item-yellowv-horizontal2{
+ 	background-color:#FCD12A;
+
+}
+
+
+.grid-item-blue3{
+ 	background-color:#1167b1;
+
+}
+.grid-item-blue4{
+ 	background-color:#1167b1;
+
+}
+
+/*end of sweden flag*/
+
+
+/*start of finland flag*/
+.flag-finland{
+	width: 360px;
+	height: 260px;
+	border:1px solid black;
+	grid-template-columns:100px 60px 200px;
+	grid-template-rows:100px 60px 100px;
+	margin-top: 20px;
+}
+
+.flag-finland div{
+	/*border:1px solid black;*/
+}
+
+.grid-item-blue-vertical{
+ 	background-color:#1167b1;
+ 	grid-column-start:2;
+ 	grid-row-end:span 3;
+	border:none;
+
+}
+/*end of finland flag*/
+
+
+/*start of denmark flag*/
+.flag-denmark{
+	width: 340px;
+	height: 280px;
+	/*border:1px solid black;*/
+	grid-template-columns:120px 40px 180px;
+	grid-template-rows:120px 40px 120px;
+	margin-top: 50px;
+}
+
+
+.grid-item-red{
+ 	background-color:red;
+
+}
+
+.grid-item-white-vertical{
+ 	background-color:white;
+ 	grid-column-start:2;
+ 	grid-row-end:span 3;
+	border:none;
+
+}
+.grid-item-red{
+ 	background-color:red;
+
+}
+
+/*end of denmark flag*/
+
+
+/*start of iceland flag*/
+.flag-iceland{
+	width: 500px;
+	height: 320px;
+	/*border:1px solid black;*/
+	grid-template-columns:160px 40px 300px;
+	grid-template-rows:140px 40px 140px;
+	margin-top: 50px;
+}
+
+.grid-item-bluea{
+ 	background-color:#1167b1;
+ 	border:15px solid white;
+ 	border-top:none;
+ 	border-left:none;
+
+}
+
+.grid-item-red-vertical{
+ 	background-color:red;
+ 	grid-column-start:2;
+ 	grid-row-end:span 3;
+	/*border:10px solid white;*/
+}
+
+.grid-item-blueb{
+ 	background-color:#1167b1;
+ 	border:15px solid white;
+ 	border-top:none;
+ 	border-right:none;
+	} 	
+
+	.grid-item-bluec{
+ 	background-color:#1167b1;
+ 	border:15px solid white;
+ 	border-bottom:none;
+ 	border-left:none;
+	} 	
+
+	.grid-item-blued{
+ 	background-color:#1167b1;
+ 	border:15px solid white;
+ 	border-bottom:none;
+ 	border-right:none;
+	} 	
+
+}
