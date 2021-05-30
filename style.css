@@ -1,7 +1,6 @@
 body{
 	margin:100px;
-	/*fallback font*/
-	font-family: "Times New Roman", Times, serif;
+
 }
 
 .grid{
@@ -18,10 +17,11 @@ body{
 
 @font-face {
     font-family: 'balooregular';
-    src: url('D:\Users\angelajin\Desktop\interactive media\exercise 3\baloo-regular-webfont.woff2') format('woff2'),
-         url('D:\Users\angelajin\Desktop\interactive media\exercise 3\baloo-regular-webfont.woff') format('woff');
+    src: url('baloo-regular-webfont.woff2') format('woff2'),
+         url('baloo-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @keyframes fading-letters{
